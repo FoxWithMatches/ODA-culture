@@ -1,0 +1,104 @@
+html {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: #433E3E;
+    background-color: #8CAE9F;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.page {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: center;
+    margin-top: -70px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #433E3E;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.nav-link:hover {
+    color: #fefefe;
+}
+
+.nav-phone {
+    position: absolute;
+    top: 35px;
+    right: 0px;
+    text-decoration: none;
+    color: #433E3E;
+}
+
+.rectangle {
+    position: absolute;
+    top: 15px;
+    left: 750px;
+    background: #EEBEA7;
+    width: 770px;
+    height: 65px;
+}
+
+/* Main */
+
+h1 {
+    position: absolute;
+    top: 195px;
+    right: 130px;
+    font-size: 150px;
+}
+
+h2 {
+    position: absolute;
+    top: 340px;
+    right: 130px;
+    font-family: "Josefin Slab", serif;
+    font-size: 74px;
+    font-weight: lighter;
+}
+
+.text-header {
+    position: absolute;
+    top: 420px;
+    right: 130px;
+    width: 400px;
+    height: 100px;
+}
+
+.btn {
+    position: absolute;
+    top: 580px;
+    right: 190px;
+    background-color: #EEBEA7;
+    width: 240px;
+    height: 56px;
+    border-radius: 12px;
+    border: none;
+    font-size: 20px;
+}
+
+.first-cup {
+    position: absolute;
+    left: -70px;
+    width: 890px;
+    height: 650px;
+}

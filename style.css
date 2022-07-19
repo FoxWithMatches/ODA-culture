@@ -1,6 +1,7 @@
 html {
     font-size: 20px;
     font-family: "Inter", sans-serif;
+    line-height: 1.6;
     color: #433E3E;
     /* background-color: #8CAE9F; */
 }
@@ -215,4 +216,66 @@ h3 {
     border: none;
     font-size: 20px;
     margin-top: 20px;
+}
+
+/* Description */
+
+.description-h4 {
+    margin-top: 80px;
+}
+
+.grid-layout-about {
+    display: grid;
+    /* grid-template-columns: 300px 300px 300px 300px; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 80px;
+}
+
+.bold-number {
+    font-size: 180px;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+span {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.description-number {
+    margin-top: -20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.background-image {
+    margin-left: -440px;
+}
+
+.description-cups {
+    display: flex;
+    margin-top: -650px;
+    margin-left: 100px;
+}
+
+.checkbox-description {
+    margin-left: -20px;
+}
+
+.one-box-text {
+    background-color: #fefefe;
+    width: 400px;
+    margin-right: 70px;
+    padding: 50px;
+    box-shadow: 1px 1px 2px 2px #433E3E;
+}
+
+.two-box-text {
+    background-color: #fefefe;
+    width: 400px;
+    margin-right: 100px;
+    padding: 50px;
+    box-shadow: 1px 1px 2px 2px #433E3E;
 }

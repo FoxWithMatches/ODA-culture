@@ -74,7 +74,7 @@ h2 {
 
 .btn {
     position: absolute;
-    top: 630px;
+    top: 650px;
     right: 0px;
     background-color: #EEBEA7;
     width: 240px;
@@ -279,3 +279,74 @@ span {
     padding: 50px;
     box-shadow: 1px 1px 2px 2px #433E3E;
 }
+
+/* Order */
+
+.order-box {
+    display: flex;
+    margin-top: 50px;
+}
+
+.image-description {
+    width: 600px;
+}
+
+.align-h5 {
+    text-align: center;
+}
+
+.image-order {
+    width: 250px;
+    margin-left: 200px;
+}
+
+.text-description-order {
+    width: 400px;
+}
+
+.span-form {
+    text-decoration: none;
+    color: #8CAE9F;
+}
+
+.icon-social {
+    display: flex;
+    justify-content:space-around;
+}
+
+.order-background {
+    margin-left: -400px;
+}
+
+.order {
+    display: flex;
+    margin-top: -550px;
+}
+
+.text-h4 {
+    text-align: center;
+}
+
+.text-contacts {
+    text-align: center;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid #433E3E;
+    background: none;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+.email {
+    font-size: 36px;
+    font-weight: 800;
+    color: #8CAE9F;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+

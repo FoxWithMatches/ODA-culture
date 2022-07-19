@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: end;
     margin-top: -70px;
 }
@@ -41,37 +42,19 @@ h1, h2, h3, h4, h5, h6 {
     color: #fefefe;
 }
 
-.nav-phone {
-    position: absolute;
-    top: 35px;
-    right: 0px;
-    text-decoration: none;
-    color: #433E3E;
-}
-
-.rectangle {
-    position: absolute;
-    top: 15px;
-    left: 750px;
-    background: #EEBEA7;
-    width: 770px;
-    height: 65px;
-    border-radius: 12px;
-}
-
 /* Main */
 
 h1 {
     position: absolute;
     top: 195px;
-    right: 130px;
+    right: 0px;
     font-size: 150px;
 }
 
 h2 {
     position: absolute;
     top: 340px;
-    right: 130px;
+    right: 0px;
     font-family: "Josefin Slab", serif;
     font-size: 74px;
     font-weight: lighter;
@@ -80,15 +63,16 @@ h2 {
 .text-header {
     position: absolute;
     top: 420px;
-    right: 130px;
+    right: 0px;
     width: 400px;
     height: 100px;
+    text-align: end;
 }
 
 .btn {
     position: absolute;
-    top: 580px;
-    right: 190px;
+    top: 630px;
+    right: 0px;
     background-color: #EEBEA7;
     width: 240px;
     height: 56px;
@@ -97,9 +81,25 @@ h2 {
     font-size: 20px;
 }
 
-.first-cup {
-    position: absolute;
-    left: -70px;
-    width: 890px;
-    height: 650px;
+.vertical-text {
+    position: relative;
+    top: 250px;
+    width: 20px;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    font-size: 24px;
+    font-weight: 100;
 }
+
+.first-cup {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: -70px;
+    max-width: 100%;
+    height: auto;
+    /* width: 890px;
+    height: 650px; */
+}
+
+

@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 1;
 }
 
+.header {
+    margin-bottom: 50px;
+}
+
 .nav-header {
     display: flex;
     flex-wrap: wrap;
@@ -47,46 +51,46 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Main */
 
+.grid-layout-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 120px;
+}
+
 h1 {
-    position: absolute;
-    top: 195px;
-    right: 0px;
     font-size: 150px;
 }
 
 h2 {
-    position: absolute;
-    top: 340px;
-    right: 0px;
     font-family: "Josefin Slab", serif;
     font-size: 74px;
     font-weight: lighter;
+    margin-top: -80px;
 }
 
-.text-header {
-    position: absolute;
-    top: 420px;
-    right: 0px;
-    width: 400px;
-    height: 100px;
+.name-header {
+    width: 700px;
     text-align: end;
 }
 
+.text-header {
+    height: 100px;
+    text-align: end;
+    margin-left: 150px;
+}
+
 .btn {
-    position: absolute;
-    top: 650px;
-    right: 0px;
     background-color: #EEBEA7;
     width: 240px;
     height: 56px;
     border-radius: 12px;
     border: none;
     font-size: 20px;
-}
+    margin-top: 100px;
+} 
 
 .vertical-text {
-    position: relative;
-    top: 250px;
+    margin-top: 150px;
     width: 20px;
     writing-mode: vertical-rl;
     text-orientation: sideways;
@@ -101,20 +105,11 @@ h2 {
     left: -70px;
     max-width: 100%;
     height: auto;
-    /* width: 890px;
-    height: 650px; */
 }
 
 /* About */
 
-.position {
-    position: absolute;
-    top: 850px;
-}
-
 .about {
-    position: absolute;
-    top: 900px;
     display: flex;
 }
 
@@ -349,4 +344,43 @@ span {
     margin-bottom: 20px;
 }
 
+/* Footer */
 
+.grid-layout-footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    margin-top: 250px;
+}
+
+.image-footer {
+    width: 200px;
+    align-content: center;
+}
+
+.h4-footer {
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.text-footer {
+    text-decoration: none;
+    color: #433E3E;
+}
+
+.text-cookies {
+    font-size: 14px;
+    font-weight: 100;
+    width: 500px;
+}
+
+.name-logo-footer-position {
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}

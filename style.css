@@ -138,7 +138,7 @@ h3 {
 
 .products {
     display: flex;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .scroll-product {
@@ -253,6 +253,7 @@ span {
     display: flex;
     margin-top: -650px;
     margin-left: 100px;
+    margin-bottom: 180px;
 }
 
 .checkbox-description {
@@ -383,4 +384,10 @@ span {
     font-weight: 100;
     text-transform: uppercase;
     margin-bottom: 20px;
+}
+
+.arrow-position {
+    position: absolute;
+    right: 0;
+    bottom: 40px;
 }

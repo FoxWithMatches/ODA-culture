@@ -17,21 +17,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ODA culture</title>
     </head>
-
+  
     <body>
        <div class="page">
-            <header>
+            <header id="header">
                 <div class="header">
                     <a href="/index.html">
                         <img class="logo" src="/img/v1.svg" alt="logotype">
                     </a>
                     <nav class="nav-header">
-                        <a class="nav-link" href="/index.html">О нас</a>
-                        <a class="nav-link" href="/product.html">Продукция</a>
-                        <a class="nav-link" href="/description.html">Преимущества</a>
+                        <a class="nav-link" href="#about">О нас</a>
+                        <a class="nav-link" href="#products">Продукция</a>
+                        <a class="nav-link" href="#description">Преимущества</a>
                         <a class="nav-link" href="#">Галерея</a>
-                        <a class="nav-link" href="/order.html">Заказать</a>
-                        <a class="nav-link" href="#">Контакты</a>
+                        <a class="nav-link" href="#order">Заказать</a>
+                        <a class="nav-link" href="#contacts">Контакты</a>
                     </nav>
 
                 </div>
@@ -51,7 +51,7 @@
                         </div>
                     </div>
 
-                    <h4 class="h4">О нас</h4>
+                    <h4 class="h4" id="about">О нас</h4>
                     <div class="about">
                         <div class="text-about">
                             <p>Всё началось с идеи держать в руках кружку с кофе, свою кружку, понимаете? Без вреда для планеты, без неудачного рисунка, без угрызений совести.</p>
@@ -65,6 +65,132 @@
                         <img class="image-about" src="/img/3.jpg" alt="cup">
                 </div>
                 <h3> “О, дааа” - <br>осознанная жизнь счастливых людей</h3>
+                
+                <div class="products" id="products">
+                    <div class="scroll-product">
+                        <input class="polygon" type="image" src="/img/Polygon 2.png" alt="scroll">
+                        <img class="photo-product" src="/img/product.png" alt="photo-product">
+                        <input class="polygon" type="image" src="/img/Polygon 1.png" alt="scroll">
+                    </div>
+
+                    <div class="description-product">
+                        <div class="price">
+                            <p class="price-sale">1200&#8381;*</p>
+                            <div class="not-sale">
+                                <p class="line-through">1500&#8381;</p>
+                                <p class="sale">20% скидка</p>
+                            </div>
+                        </div>
+                        <p class="description-star">Доставка транспортной компанией оплачивается отдельно*</p>
+                        <p class="description-text">Розовый малыш идеален для путешествий.</p>
+                        <p class="description-text">Всё начинается с цокающего звука колесиков твоего чемодана в аэропорту и с эко-стаканчика, который ты наполнишь терпким турецким кофе или чувственным марокканским чаем.</p>
+                        <p class="description-text">350 ml</p>
+                        <button class="order-btn">Заказать</button>
+                    </div>
+                </div>
+
+                <h4 class="description-h4" id="description">Преимущества</h4>
+                <div class="grid-layout-about">
+                  <div>
+                      <p class="bold-number">1</p>
+                      <p class="description-number">эко-стакан круглый год вместо 365 бумажных</p>
+                  </div>
+                  <div>
+                      <p class="bold-number">6<span>cm</span></p>
+                      <p class="description-number">высота в сложенном виде</p>
+                  </div>
+                  <div>
+                      <p class="bold-number">8<span>kg</span></p>
+                      <p class="description-number">древесины, сохраненной для чего-то, действительно, важного</p>
+                  </div>
+                  <div>
+                      <p class="bold-number">∞</p>
+                      <p class="description-number">любовь и забота о мире</p>
+                  </div>
+                </div>
+
+                <h4>Свойста эко-стаканов</h4>
+                <img class="background-image" src="/img/cupsBCKG.png" alt="background photo">
+                
+                <div class="description-cups">
+                  <div class="one-box-text">
+                     <p><span class="checkbox-description">&#10004;</span> Сделаны из долговечного пищевого силикона, который сохраняет температуру напитка, пока вы им наслаждаетесь</p>
+                      <p><span class="checkbox-description">&#10004;</span> Просты в использовании, телескопический дизайн позволяет менять объем эко-стаканчика под ваши нужды</p>
+                      <p><span class="checkbox-description">&#10004;</span> Герметично закрываются и в раскрытом, и в сложенном виде</p>
+                  </div>
+                  <div class="two-box-text">
+                      <p> <span class="checkbox-description">&#10004;</span> Пластиковая манжета позволяет наливать даже очень горячие напитки без риска обжечься</p>
+                      <p><span class="checkbox-description">&#10004;</span> Легко моются, в том числе в посудомоечной машине</p>
+                      <p><span class="checkbox-description">&#10004;</span> Пищевой силикон эко-стаканчика безопасен, не токсичен, не впитывает запахи и подходит для использования в любом возрасте</p>
+                  </div>
+                </div>
+
+                <h4 id="order">Как заказать</h4>
+
+                <div class="order-box">
+                  <div class="image-description">
+                       <h5 class="align-h5">Оставьте заявку</h5>
+                       <img class="image-order" src="/img/post.png" alt="image post">
+                  </div>
+                  <div class="text-description-order">
+                       <p>Свяжитесь с нами любым удобным для вас способом:</p>
+                       <div class="icon-social">
+                           <a href="#"><img src="/img/vk.png" alt="icon vk"></a>
+                           <a href="#"><img src="/img/telegram.png" alt="icon telegram"></a>
+                           <a href="#"><img src="/img/social 1.png" alt="icon social"></a>
+                           <a href="#"><img src="/img/Mail.png" alt="icon email"></a>
+                       </div>
+                           <p>Если у вас предложение о партнерстве или хотите сделать оптовый заказ свяжитесь с нами через эту <a class="span-form" href="#">форму.</a></p>
+                  </div>
+                </div>
+
+                <div class="order-box">
+                   <div class="image-description">
+                        <h5 class="align-h5">Сделайте заказ</h5>
+                        <img class="image-order" src="/img/cup-flowerstwo.png" alt="image cups">
+                   </div>
+                   <div class="text-description-order">
+                        <p>Выберите товар, количество и способ доставки.</p>
+                            <p>Наши менеджеры с удовольствием помогут определиться с выбором и проконсультируют по любому вопросу</p>
+                   </div>
+                 </div>
+
+                 <div class="order-box">
+                   <div class="image-description">
+                        <h5 class="align-h5">Доставка</h5>
+                        <img class="image-order" src="/img/delivery.png" alt="image delivery">
+                   </div>
+                   <div class="text-description-order">
+                       <p>В кратчайшие сроки мы доставим ваш заказ в любую точку России и СНГ</p>
+                       <p>Поздравляем с покупкой! Вы стали сторонником осознанных людей обрели нового друга эко-движения </p>
+                   </div>
+                 </div>
+
+                 <img class="order-background" src="/img/order.png" alt="background image">
+                 
+                 <div class="order" id="contacts">
+                   <div class="order-form">
+                       <h4 class="text-h4">Оставьте заявку</h4>
+                       <form action="/" method="post">
+                           <input class="input" type="text" name="name" placeholder="Ваше имя*" required>
+                           <input class="input" type="tel" placeholder="Номер телефона*" required>
+                           <textarea class="input" name="name" placeholder="Комментарий (необязательно)"></textarea><br>
+                           <button class="order-btn" type="submit">Отправить</button>
+                       </form>
+                   </div>
+                   <div class="contacts">
+                       <h4 class="text-h4">Контакты</h4>
+                       <p class="text-contacts">Так же Вы можете связаться с нами по электронной почте или в социальных сетях</p>
+                       <h4 class="email">oda@culture.ru</h4>
+                       <div class="icon-social">
+                           <a href="#"><img src="/img/vk.png" alt="icon vk"></a>
+                           <a href="#"><img src="/img/telegram.png" alt="icon telegram"></a>
+                           <a href="#"><img src="/img/social 1.png" alt="icon social"></a>
+                           <a href="#"><img src="/img/Mail.png" alt="icon email"></a>
+                       </div>
+                   </div>
+                 </div>
+
                 </main>
 
                 <footer>
@@ -72,11 +198,11 @@
                         <img class="image-footer" src="/img/v1.svg" alt="logotype">
                         <div>
                             <h4 class="h4-footer">Меню</h4>
-                            <a class="text-footer" href="#">О нас</a><br>
-                            <a class="text-footer" href="#">Преимущества</a><br>
-                            <a class="text-footer" href="#">Продукция</a><br>
+                            <a class="text-footer" href="#about">О нас</a><br>
+                            <a class="text-footer" href="#description">Преимущества</a><br>
+                            <a class="text-footer" href="#products">Продукция</a><br>
                             <a class="text-footer" href="#">Фотогалерея</a><br>
-                            <a class="text-footer" href="#">Заказать</a>
+                            <a class="text-footer" href="#order">Заказать</a>
                         </div>
 
                         <div>
@@ -96,6 +222,9 @@
                     </div>
                     <p class="text-cookies">Мы используем ваши «Cookies» — данные о посещении нашего сайта. Это помогает делать наш проект лучше.</p>
                     <p class="text-cookies">Жучкова Д.Д. — ИНН 525406158308</p>
+                    <a href="#header">
+                        <img class="arrow-position" src="/img/Union.svg" alt="arrow">
+                    </a>
                     <h4 class="name-logo-footer-position">ODA culture 2022</h4>
                 </footer>
 

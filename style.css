@@ -82,6 +82,11 @@ h2 {
     margin-bottom: 90px;
 }
 
+.a-btn {
+    padding: 15px 60px;
+    text-decoration: none;
+    color: #433E3E;
+}
 .order-btn {
     background-color: #EEBEA7;
     width: 240px;

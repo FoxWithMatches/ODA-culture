@@ -8,7 +8,12 @@ html {
     overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 }
 
@@ -36,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-wrap: wrap;
     justify-content: end;
-    margin-top: -70px;  
+    margin-top: -70px;
 }
 
 .nav-link {
@@ -87,6 +92,7 @@ h2 {
     text-decoration: none;
     color: #433E3E;
 }
+
 .order-btn {
     background-color: #EEBEA7;
     width: 240px;
@@ -95,7 +101,7 @@ h2 {
     border: none;
     font-size: 20px;
     margin-top: 20px;
-} 
+}
 
 .order-btn:hover {
     background-color: #d59476;
@@ -140,7 +146,8 @@ h2 {
     width: 45%;
 }
 
-blockquote, h4 {
+blockquote,
+h4 {
     font-size: 24px;
     font-weight: 800;
 }
@@ -160,7 +167,7 @@ h3 {
 .scroll-product {
     display: flex;
     justify-content: space-around;
-    
+
 }
 
 .photo-product {
@@ -175,6 +182,7 @@ h3 {
     width: 20px;
     height: 20px;
 }
+
 .description-product {
     margin-left: 150px;
 }
@@ -202,6 +210,7 @@ h3 {
     margin-bottom: -20px;
     padding: 0;
 }
+
 .sale {
     font-size: 16px;
     color: #EEBEA7;
@@ -263,7 +272,7 @@ span {
 
 .background-image {
     margin-left: -440px;
- 
+
 }
 
 .description-cups {
@@ -343,7 +352,7 @@ span {
 
 .icon-social {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 .order-background {
@@ -367,7 +376,7 @@ span {
     padding: 10px;
 }
 
-.input:focus{
+.input:focus {
     outline: none;
 }
 

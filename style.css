@@ -3,7 +3,9 @@ html {
     font-family: "Inter", sans-serif;
     line-height: 1.6;
     color: #433E3E;
-    /* background-color: #8CAE9F; */
+    background: url(/img/bckg.png);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -16,6 +18,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
     position: relative;
     box-sizing: border-box;
+
 }
 
 /* Header */
@@ -246,6 +249,7 @@ span {
 
 .background-image {
     margin-left: -440px;
+ 
 }
 
 .description-cups {

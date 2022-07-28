@@ -326,7 +326,9 @@ span {
     grid-auto-flow: dense;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     grid-template-rows: repeat(5, 300px);
+    gap: 10px;
     margin-bottom: -150px;
+    margin-top: 20px;
 }
 
 .galery-img {
@@ -338,16 +340,22 @@ span {
 }
 
 .galery-item {
+    margin: 0;
+    padding: 0;
     grid-column: span 2;
     grid-row: span 2;
 }
 
 .galery-item-1 {
+    margin: 0;
+    padding: 0;
     grid-column: span 1;
     grid-row: span 1;
 }
 
 .galery-item-2 {
+    margin: 0;
+    padding: 0;
     grid-column: span 3;
     grid-row: span 1;
 }
@@ -491,3 +499,6 @@ span {
     right: 0;
     bottom: 0;
 }
+
+
+

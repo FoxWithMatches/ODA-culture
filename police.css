@@ -102,3 +102,42 @@ p {
     right: 0;
     bottom: 0;
 }
+
+.partners {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 18px;
+}
+
+.form-partners {
+    background-color: #f1eeee;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+input, textarea {
+    border: none;
+    border-bottom: 1px solid #433E3E;
+    background: none;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    resize: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.order-btn {
+    background-color: #EEBEA7;
+    width: 240px;
+    height: 56px;
+    border-radius: 12px;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+}
+

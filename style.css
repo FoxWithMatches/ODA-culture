@@ -261,7 +261,6 @@ h3 {
 
 .grid-layout-about {
     display: grid;
-    /* grid-template-columns: 300px 300px 300px 300px; */
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-bottom: 100px;
 }
@@ -287,7 +286,6 @@ span {
 
 .background-image {
     margin-left: -440px;
-
 }
 
 .description-cups {
@@ -481,12 +479,15 @@ span {
 }
 
 .order-background {
-    margin-left: -400px;
+    /* margin-left: -400px; */
+    width: 100vw;
+    margin-left: 50%;
+    transform: translate3d(-50%, 0, 0);
 }
 
 .order {
     display: flex;
-    margin-top: -550px;
+    margin-top: -450px;
 }
 
 .input {
@@ -572,6 +573,3 @@ span {
     right: 0;
     bottom: 0;
 }
-
-
-

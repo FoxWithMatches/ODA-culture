@@ -107,10 +107,21 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+
+.partners p {
+    padding: 0;
+}
+
+.description-partners {
+    margin-right: 100px;
 }
 
 .form-partners {
-    background-color: #f1eeee;
+    /* background-color: #f1eeee; */
+    border: 1px solid #433E3E;
     border-radius: 12px;
     padding: 20px;
 }

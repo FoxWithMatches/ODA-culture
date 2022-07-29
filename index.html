@@ -16,6 +16,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Pacifico&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
     <meta name="description"
         content="ODA culture - интернет-магазин складных эко-стаканчиков, который позиционирует экологичное отношение, разумное протребление и осознанное отношение как к природе, так и к себе">
     <meta name="keywords"
@@ -177,7 +179,7 @@
 
                 <h4 class="h4">Фотогалерея</h4>
 
-                <div class="galery">
+                <!-- <div class="galery">
                     <figure class="galery-item">
                         <img class="galery-img" src="/img/3.jpg" alt="cup">
                     </figure>
@@ -213,8 +215,100 @@
                     <figure class="galery-item-2">
                         <img class="galery-img" src="/img/5.jpg" alt="cup">
                     </figure>
+                </div> -->
+        <div class="container" style="display: block;">
+                <section class="galery-modal">
+                    <figure class="item-modal">
+                        <img src="/img/3.jpg" alt="cup">
+                    </figure>
+                    <figure class="item-modal">
+                        <img src="/img/1.jpg" alt="cup">
+                    </figure>
+                    <figure class="item-modal">
+                        <img src="/img/2.jpg" alt="cup">
+                    </figure>
+                    <figure class="item-modal">
+                        <img src="/img/3.jpg" alt="cup">
+                    </figure>
+                    <figure class="item-modal">
+                        <img src="/img/2.jpg" alt="cup">
+                    </figure>
+                    <figure class="item-modal">
+                        <img src="/img/5.jpg" alt="cup">
+                    </figure>
+                    <figure class="item-modal">
+                        <img src="/img/3.jpg" alt="cup">
+                    </figure>
+                    <figure class="item-modal">
+                        <img src="/img/1.jpg" alt="cup">
+                    </figure>
+                    <figure class="item-modal">
+                        <img src="/img/5.jpg" alt="cup">
+                    </figure>
+                </section>
+            </div>
 
-                </div>
+                <section class="swiper mySwiper" style="display: none;">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <figure class="item-modal">
+                                <img src="/img/3.jpg" alt="cup">
+                            </figure>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <figure class="item-modal">
+                                <img src="/img/1.jpg" alt="cup">
+                            </figure>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <figure class="item-modal">
+                                <img src="/img/2.jpg" alt="cup">
+                            </figure>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <figure class="item-modal">
+                                <img src="/img/3.jpg" alt="cup">
+                            </figure>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <figure class="item-modal">
+                                <img src="/img/2.jpg" alt="cup">
+                            </figure>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <figure class="item-modal">
+                                <img src="/img/5.jpg" alt="cup">
+                            </figure>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <figure class="item-modal">
+                                <img src="/img/3.jpg" alt="cup">
+                            </figure>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <figure class="item-modal">
+                                <img src="/img/1.jpg" alt="cup">
+                            </figure>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <figure class="item-modal">
+                                <img src="/img/5.jpg" alt="cup">
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </section>
 
                 <h4 class="h4" id="order">Как заказать</h4>
 
@@ -335,6 +429,43 @@
             </footer>
         </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- modal activate -->
+    <script>
+      let i;
+      let container = document.querySelector('.container');
+      let slider = document.querySelector('.swiper');
+      let container_item_modal_img = Array.from(document.querySelectorAll('.container .item-modal img'));
+      let swiper_item_modal_img = Array.from(document.querySelectorAll('.swiper .item-modal img'));
+  
+      container_item_modal_img.forEach(element => {
+        element.addEventListener('click', () => {
+          if (container.getAttribute('style') == 'display: block;') {
+            container.setAttribute('style', 'display: none;');
+            slider.setAttribute('style', 'display: block;');
+            i = container_item_modal_img.indexOf(element);
+  
+            var swiper = new Swiper(".mySwiper", {
+              initialSlide: i,
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+            });
+          }
+        });
+      });
+      swiper_item_modal_img.forEach(element => {
+        element.addEventListener('click', () => {
+          if (container.getAttribute('style') == 'display: none;') {
+            container.setAttribute('style', 'display: block;');
+            slider.setAttribute('style', 'display: none;');
+          }
+        });
+      });
+
+    </script>
 </body>
 
 </html>

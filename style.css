@@ -307,12 +307,13 @@ span {
 
 .img-pos {
     margin-left: -70px;
+    opacity: 0.3;
 }
 
 .description-cups {
     display: flex;
+    justify-content:space-evenly;
     margin-top: 150px;
-    /* margin-left: 100px; */
     margin-bottom: 180px;
 }
 
@@ -323,15 +324,15 @@ span {
 .one-box-text {
     background-color: #fefefe;
     width: 400px;
-    margin-right: 70px;
     padding: 50px;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);
 }
 
 .two-box-text {
     background-color: #fefefe;
     width: 400px;
-    margin-right: 100px;
     padding: 50px;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);
 }
 
 .btn-position-properties {

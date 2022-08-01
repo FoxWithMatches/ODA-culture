@@ -28,6 +28,7 @@ h6 {
     margin-right: -50vw;
     max-width: 100vw;
     width: 100vw;
+    overflow: hidden;
 }
 
 .page {
@@ -304,11 +305,9 @@ span {
     font-size: 18px;
 }
 
-/* .background-image {
-    overflow: hidden;
-    position: absolute;
-    left: 0;
-} */
+.img-pos {
+    margin-left: -70px;
+}
 
 .description-cups {
     display: flex;
@@ -491,9 +490,6 @@ span {
 .order {
     display: flex;
     margin-top: 150px;
-}
-.order-form {
-   
 }
 
 .input {

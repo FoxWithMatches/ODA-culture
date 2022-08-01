@@ -1,26 +1,5 @@
-/* html {
-    font-size: 20px;
-    font-family: "Inter", sans-serif;
-    line-height: 1.6;
-    color: #433E3E;
-    background: url(/img/bckg.png);
-    background-repeat: no-repeat;
-    overflow-x: hidden;
-} */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-}
-
 .background-full {
     z-index: -1;
-    /* width: 100%;
-    height: 100%;*/
     position: absolute; 
     right: 50%;
     left: 50%;
@@ -41,8 +20,6 @@ h6 {
     font-family: "Inter", sans-serif;
     line-height: 1.6;
     color: #433E3E;
-    /* background: url(/img/bckg.png);
-    background-repeat: no-repeat; */
     overflow-x: hidden;
 }
 
@@ -86,8 +63,13 @@ h6 {
     margin-bottom: 200px;
 }
 
+.name-header {
+    margin-top: 20px;
+}
+
 h1 {
     font-size: 150px;
+    font-weight: 900;
 }
 
 h2 {
@@ -139,14 +121,16 @@ h2 {
     writing-mode: vertical-rl;
     transform: rotate(-180deg);
 }
+.image-size {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 .first-cup {
-    display: block;
     position: absolute;
     top: 20px;
     left: -70px;
-    max-width: 100%;
-    height: auto;
 }
 
 /* About */
@@ -156,25 +140,29 @@ h2 {
     font-size: 50px;
     font-weight: 800;
     opacity: 0.2;
+    margin-top: 50px;
 }
 
 .about {
     display: flex;
+    align-items: center;
+    margin-top: 50px;
 }
 
 .text-about {
+    width: 50%;
     margin-right: 20px;
 }
 
 .image-about {
-    width: 45%;
+    width: 50%;
 }
 
 blockquote {
     text-align: center;
     font-family: 'Pacifico', cursive;
-    font-size: 36px;
-    margin-bottom: 70px;
+    font-size: 32px;
+    padding: 10px;
 }
 
 h4 {
@@ -192,23 +180,19 @@ h3 {
 
 .products {
     display: flex;
+    align-items: center;
 }
 
 .scroll-product {
     display: flex;
-    justify-content: space-around;
-
+    align-items: center;
 }
 
 .photo-product {
-    display: block;
-    max-width: 100%;
-    width: 1700px;
-    height: auto;
+    width: 2000px;
 }
 
 .polygon {
-    margin-top: 250px;
     width: 20px;
     height: 20px;
 }
@@ -238,27 +222,26 @@ h3 {
 .line-through {
     font-size: 16px;
     text-decoration: line-through;
-    margin-top: 60px;
+    margin-top: 20px;
     margin-bottom: -20px;
-    padding: 0;
 }
 
 .sale {
     font-size: 16px;
     color: #EEBEA7;
-    margin-bottom: 0;
-    padding: 0;
+    margin-top: 10px;
 }
 
 .description-star {
     font-size: 14px;
     width: 400px;
-    margin-top: -60px;
     color: #ccc;
+    margin-bottom: 20px;
 }
 
 .description-text {
     font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .position-description-text {
@@ -267,7 +250,6 @@ h3 {
 
 .preference {
     color: #ccc;
-
 }
 
 .bottom-position {
@@ -318,7 +300,13 @@ span {
 }
 
 .checkbox-description {
-    margin-left: -20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.text-description-checkbox {
+    margin-bottom: 20px;
+    text-align: justify;
 }
 
 .one-box-text {
@@ -343,14 +331,16 @@ span {
 
 /* Galery */
 
-
-  section {
+section {
     margin-bottom: 2.0rem;
   }
   
 .galery-modal {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 130px;
   } 
 
 /* .galery {
@@ -455,7 +445,10 @@ span {
 
 .order-box {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .image-description {
@@ -464,12 +457,9 @@ span {
 
 .image-order {
     width: 300px;
-    margin-left: 20px;
 }
 
 .arrow-order {
-    margin-top: 140px;
-    margin-left: -150px;
     margin-right: 100px;
     opacity: 0.2;
 }
@@ -486,6 +476,12 @@ span {
 .icon-social {
     display: flex;
     justify-content: space-around;
+    padding: 20px;
+}
+
+.scale-icon:hover {
+    scale: 1.1;
+    transition-duration: 1s;
 }
 
 .order {
@@ -505,20 +501,16 @@ span {
     padding: 10px;
 }
 
-.input:focus {
-    outline: none;
-}
-
-.icon-position {
-    margin-left: -40px;
-    margin-top: 40px;
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .email {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 800;
     color: #8CAE9F;
-    margin-top: 40px;
     text-decoration: none;
 }
 

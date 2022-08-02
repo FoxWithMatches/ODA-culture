@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptive.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 
     <meta name="description"
@@ -52,22 +53,19 @@
     <!-- /Yandex.Metrika counter -->
 
     <div class="background-full">
-        <img src="/img/bckg.png" alt="green background">
+        <img class="bckg" src="/img/bckg.png" alt="green background">
     </div>
     <div class="page">
             <header id="header">
-                <div class="header">
+                <nav class="header">
                         <img class="logo" src="/img/v1.svg" alt="logotype">
-                    <nav class="nav-header">
                         <a class="nav-link" href="#about">О нас</a>
                         <a class="nav-link" href="#products">Продукция</a>
                         <a class="nav-link" href="#description">Преимущества</a>
                         <a class="nav-link" href="#galery">Галерея</a>
                         <a class="nav-link" href="#order">Заказать</a>
                         <a class="nav-link" href="#contacts">Контакты</a>
-                    </nav>
-
-                </div>
+                </nav>
             </header>
 
             <main>
@@ -116,6 +114,7 @@
                     </div>
 
                     <div class="description-product">
+                        <div class="flex-price">
                         <div class="price">
                             <p class="price-sale">1120&#8381;*</p>
                             <div class="not-sale">
@@ -134,8 +133,11 @@
                         <p class="description-text preference">Розовый: 350 ml, 6 sm, hot х cold, герметичный, пищевой
                             силикон. Можно мыть в посудомоечной машине</p>
                         <p class="description-text preference bottom-position">В наличии</p>
-                        <a href="#order" class="order-btn a-btn">Заказать</a>
+                        <div class="btn-position-order">
+                            <a href="#order" class="order-btn a-btn">Заказать</a>
+                        </div>
                     </div>
+                </div>
                     </div>
 
                 <h4 class="description-h4 h4" id="description">Цифры со смыслом</h4>
@@ -173,7 +175,7 @@
                         <p class="text-description-checkbox"><span class="checkbox-description">&#10004;</span> Герметично закрывается и в раскрытом, и в
                             сложенном виде</p>
                     </div>
-                    <div class="two-box-text">
+                    <div class="one-box-text">
                         <p class="text-description-checkbox"> <span class="checkbox-description">&#10004;</span> Пластиковая манжета позволяет наливать
                             даже очень горячие напитки без риска обжечься</p>
                         <p class="text-description-checkbox"><span class="checkbox-description">&#10004;</span> Легко моется, в том числе в посудомоечной
@@ -330,10 +332,10 @@
                     <div class="text-description-order">
                         <p>Свяжитесь с нами любым удобным для вас способом:</p>
                         <div class="icon-social">
-                            <a href="https://vk.com/oda_culture"><img class="scale-icon" src="/img/vk.png" alt="icon vk"></a>
-                            <a href="https://t.me/DarinaZhu"><img class="scale-icon" src="/img/telegram.png" alt="icon telegram"></a>
-                            <a href="#"><img class="scale-icon" src="/img/social1.png" alt="icon social"></a>
-                            <a href="mailto:hello@oda-culture.store"><img class="scale-icon" src="/img/Mail.png" alt="icon email"></a>
+                            <a href="https://vk.com/oda_culture"><img class="scale-icon icon-size" src="/img/vk.png" alt="icon vk"></a>
+                            <a href="https://t.me/DarinaZhu"><img class="scale-icon icon-size" src="/img/telegram.png" alt="icon telegram"></a>
+                            <a href="#"><img class="scale-icon icon-size" src="/img/social1.png" alt="icon social"></a>
+                            <a href="mailto:hello@oda-culture.store"><img class="scale-icon icon-size" src="/img/Mail.png" alt="icon email"></a>
                         </div>
                         <p>Если у вас предложение о партнерстве или хотите сделать оптовый заказ свяжитесь с нами через
                             эту <a class="span-form" href="/partners.html">форму.</a></p>
@@ -374,8 +376,8 @@
                     <div class="contacts">
                         <h4>Оставьте заявку</h4>
                         <form action="/" method="post">
-                            <input class="input" type="text" name="name" placeholder="Ваше имя*" required>
-                            <input class="input" type="tel" placeholder="Номер телефона*" required>
+                            <input class="input" type="text" name="name" placeholder="Ваше имя" required>
+                            <input class="input" type="tel" placeholder="Номер телефона" required>
                             <textarea class="input" name="name"
                                 placeholder="Комментарий (необязательно)"></textarea><br>
                             <button class="order-btn" type="submit">Отправить</button>
@@ -383,14 +385,14 @@
                     </div>
                     <div class="contacts">
                         <h4>Контакты</h4>
-                        <p  class="description-text">Так же можно связаться с нами по электронной почте или в социальных сетях</p>
+                        <p class="description-text margin-text">Так же можно связаться с нами по электронной почте или в социальных сетях</p>
                         <a href="mailto:hello@oda-culture.store" class="email">hello@oda-culture.store</a>
                         <div class="icon-social">
-                            <a href="https://vk.com/oda_culture" target="_blank"><img class="scale-icon" src="/img/vk.png"
+                            <a href="https://vk.com/oda_culture" target="_blank"><img class="scale-icon icon-size" src="/img/vk.png"
                                     alt="icon vk"></a>
-                            <a href="https://t.me/DarinaZhu" target="_blank"><img class="scale-icon" src="/img/telegram.png" alt="icon telegram"></a>
-                            <a href="#"><img class="scale-icon" src="/img/social1.png" alt="icon social"></a>
-                            <a href="mailto:hello@oda-culture.store"><img class="scale-icon" src="/img/Mail.png" alt="icon email"></a>
+                            <a href="https://t.me/DarinaZhu" target="_blank"><img class="scale-icon icon-size" src="/img/telegram.png" alt="icon telegram"></a>
+                            <a href="#"><img class="scale-icon" src="/img/social1.png" alt="icon social icon-size"></a>
+                            <a href="mailto:hello@oda-culture.store"><img class="scale-icon icon-size" src="/img/Mail.png" alt="icon email"></a>
                         </div>
                     </div>
                 </div>

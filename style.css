@@ -118,6 +118,11 @@ h2 {
     writing-mode: vertical-rl;
     transform: rotate(-180deg);
 }
+
+.gorizontal-text {
+    display: none;
+}
+
 .image-size {
     display: block;
     max-width: 100%;
@@ -522,8 +527,8 @@ section {
 
 .grid-layout-footer {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-    /* grid-template-columns: 2fr 1fr 1fr 1fr; */
+    /* grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); */
+    grid-template-columns: 2fr 1fr 1fr 1fr;
     gap: 10px;
     margin-top: 250px;
 }
@@ -850,8 +855,8 @@ section {
 
 @media screen and (max-width: 576px) {
     .page {
-        max-width: 500px;
-        font-size: 12px;
+        max-width: 510px;
+        font-size: 16px;
     }
 
     .nav-link {
@@ -859,22 +864,50 @@ section {
     }
 
     .vertical-text {
-        padding-top: 130px;
-        font-size: 12px;
+        /* padding-top: 130px;
+        font-size: 12px; */
+        display: none;
+        
+    }
+
+    .gorizontal-text {
+        display: block;
+        font-size: 20px;
+        font-weight: 100;
+        text-align: center;
+        margin-top: -50px;
     }
 
     .name-header {
         margin-top: 100px;
         width: 400px;
+        text-align: center;
+        margin-bottom: -100px;
     }
 
     h1 {
-        font-size: 60px;
+        font-size: 80px;
+        margin-top: -120px;
+        margin-left: 100px;
     }
 
     h2 {
-        font-size: 32px;
-        margin-top: -30px;
+        font-size: 38px;
+        margin-top: -40px;
+        margin-left: 168px;
+    }
+
+    .first-cup {
+        left: 80px;
+        top: 230px;
+        width: 350px;
+    }
+
+    .text-header {
+        text-align: center;
+        width: 370px;
+        margin-top: 240px;
+        margin-left: 70px;
     }
 
     .a-btn {
@@ -882,10 +915,37 @@ section {
     }
 
 
+    .btn-ml {
+        margin-left: 100px;
+    }
+
+    /* About */
+
+    .about {
+        flex-direction: column;
+    }
+
+    .text-about {
+       width: 95%;
+    }
+
+    .text-about > p {
+        padding-bottom: 10px;
+    }
+    
+    .image-about {
+        width: 100%;
+        margin: 20px;
+    }
+
     /* Products */
 
     .products {
         flex-direction: column;
+    }
+
+    .scroll-product {
+        width: 90%;
     }
 
     .flex-price {
@@ -897,23 +957,38 @@ section {
         margin-left: 0px;
     }
 
+    .price-sale {
+        font-size: 36px;
+    }
+
     .line-through {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .sale {
         width: 100px;
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .description-text {
         width: 400px;
         text-align: center;
-
+        font-style: 16px;
     }
 
     .description-star {
         text-align: center;
+        font-size: 12px;
+    }
+
+    /* Description */
+
+    .grid-layout-about {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    }
+
+    .description-number {
+        font-size: 16px;
     }
 
     /* Order */
@@ -957,42 +1032,27 @@ section {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 515px) {
 
     .page {
         max-width: 450px;
-        font-size: 12px;
-    }
-    .vertical-text {
-        display: none;
     }
 
     .first-cup {
-        top: 420px;
+        top: 240px;
     }
 
-    .name-header {
-        margin-top: 50px;
-        width: 400px;
+    .text-header {
+        margin-top: 250px;
+        margin-left: 50px;
     }
 
     .grid-layout-header {
-        margin-bottom: 250px;
+        margin-bottom: 210px;
     }
 
-    /* About */
-
-    .about {
-        flex-direction: column;
-    }
-
-    .text-about {
-        width: 90%;
-    }
-    
-    .image-about {
-        width: 100%;
-        margin: 20px;
+    .btn-ml {
+        margin-left: 70px;
     }
 
     /* Products */
@@ -1003,27 +1063,16 @@ section {
         margin-bottom: 0;
     }
 
-    .scroll-product {
-        width: 90%;
-    }
-
     .description-text {
         width: 100%;
     }
 
     /* Description */
 
-    .bold-number {
-        font-size: 80px;
+    .grid-layout-about {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     }
 
-    span {
-        font-size: 10px;
-    }
-
-    .description-number {
-        font-size: 10px;
-    }
 
     /* Description */
 
@@ -1059,6 +1108,11 @@ section {
 
     /* Footer */
 
+
+    .grid-layout-footer {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+
     .name-logo-footer-position, .h4-footer {
         font-size: 12px;
     }
@@ -1092,38 +1146,49 @@ section {
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 470px) {
 
     .page {
         max-width: 370px;
-        font-size: 12px;
     }
 
-    .name-header {
-        margin-top: 50px;
-        margin-left: -40px;
-        width: 400px;
-        z-index: 1;
+    .first-cup {
+      left: 20px;
     }
 
-     /* Order */
-
-     .image-order {
-        width: 150px;
+    h1 {
+        margin-left: 50px;
     }
 
-    .grid-layout-about {
-        margin-bottom: 70px;
+    h2 {
+        margin-left: 128px;
+    }
+
+    .text-header {
+        margin-top: 250px;
+        margin-left: 0px;
+    }
+
+    .grid-layout-header {
+        margin-bottom: 210px;
+    }
+
+    .btn-ml {
+        margin-left: 0px;
     }
 
     /* Description */
+
+    .grid-layout-about {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
 
     .description-cups {
         margin-top: 20px;
         margin-bottom: 20px;
     }
     .one-box-text {
-        width: 90%;
+        width: 95%;
         padding: 15px;
     }
 
@@ -1162,24 +1227,46 @@ section {
 @media screen and (max-width: 390px) {
     .page {
         max-width: 330px;
-        font-size: 12px;
     }
 
     .name-header {
         margin-left: -80px;
     }
 
-    .first-cup {
-        top: 370px;
-        left: -100px;
+    h1 {
+        margin-left: 140px;
     }
 
+    h2 {
+        margin-left: 215px;
+    }
+
+    .first-cup {
+        width: 300px;
+        left: 50px;
+        top: 220px;
+    }
+
+    .text-header {
+        width: 340px;
+        margin-top: 200px;
+        margin-left: 80px;
+        margin-bottom: 100px;
+    }
+
+    .btn-ml {
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+
+    /* About */
+
     blockquote {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .bckg {
-        height: 680px;
+        height: 740px;
     }
 
     .grid-layout-header {
@@ -1206,6 +1293,16 @@ section {
 
     .bckg {
         height: 580px;
+    }
+
+    /* Description */
+
+    .bold-number {
+        font-size: 60px;
+    }
+
+    .description-star {
+        width: 200px;
     }
 
     /* Partners */

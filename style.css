@@ -25,6 +25,10 @@
 
 /* Header */
 
+.mobile-header {
+    display: none;
+}
+
 .logo {
     width: 100px;
     height: 100px;
@@ -864,10 +868,19 @@ section {
     }
 
     .vertical-text {
-        /* padding-top: 130px;
-        font-size: 12px; */
         display: none;
-        
+    }
+
+    .grid-layout-header {
+        display: none;
+    }
+
+    .mobile-header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: -50px;
+        margin-bottom: 130px;
     }
 
     .gorizontal-text {
@@ -875,49 +888,25 @@ section {
         font-size: 20px;
         font-weight: 100;
         text-align: center;
-        margin-top: -50px;
+        margin-top: -60px;
     }
 
-    .name-header {
-        margin-top: 100px;
-        width: 400px;
-        text-align: center;
-        margin-bottom: -100px;
+    .mobile-img {
+        width: 300px;
+        margin-top: -30px;
     }
 
-    h1 {
+    .h1-mobile {
         font-size: 80px;
-        margin-top: -120px;
-        margin-left: 100px;
+        font-weight: 900;
+        margin-top: 50px;
     }
 
-    h2 {
-        font-size: 38px;
-        margin-top: -40px;
-        margin-left: 168px;
+    .text-mobile {
+    margin-top: 20px;
+    margin-bottom: 40px;
     }
 
-    .first-cup {
-        left: 80px;
-        top: 230px;
-        width: 350px;
-    }
-
-    .text-header {
-        text-align: center;
-        width: 370px;
-        margin-top: 240px;
-        margin-left: 70px;
-    }
-
-    .a-btn {
-        padding: 12px 40px;
-    }
-
-
-    .btn-ml {
-        margin-left: 100px;
-    }
 
     /* About */
 
@@ -1038,23 +1027,6 @@ section {
         max-width: 450px;
     }
 
-    .first-cup {
-        top: 240px;
-    }
-
-    .text-header {
-        margin-top: 250px;
-        margin-left: 50px;
-    }
-
-    .grid-layout-header {
-        margin-bottom: 210px;
-    }
-
-    .btn-ml {
-        margin-left: 70px;
-    }
-
     /* Products */
 
     .description-product {
@@ -1152,31 +1124,6 @@ section {
         max-width: 370px;
     }
 
-    .first-cup {
-      left: 20px;
-    }
-
-    h1 {
-        margin-left: 50px;
-    }
-
-    h2 {
-        margin-left: 128px;
-    }
-
-    .text-header {
-        margin-top: 250px;
-        margin-left: 0px;
-    }
-
-    .grid-layout-header {
-        margin-bottom: 210px;
-    }
-
-    .btn-ml {
-        margin-left: 0px;
-    }
-
     /* Description */
 
     .grid-layout-about {
@@ -1229,34 +1176,8 @@ section {
         max-width: 330px;
     }
 
-    .name-header {
-        margin-left: -80px;
-    }
-
-    h1 {
-        margin-left: 140px;
-    }
-
-    h2 {
-        margin-left: 215px;
-    }
-
-    .first-cup {
-        width: 300px;
-        left: 50px;
-        top: 220px;
-    }
-
-    .text-header {
-        width: 340px;
-        margin-top: 200px;
-        margin-left: 80px;
-        margin-bottom: 100px;
-    }
-
-    .btn-ml {
-        margin-left: 80px;
-        margin-top: 50px;
+    .mobile-img {
+        width: 200px;
     }
 
     /* About */
@@ -1281,15 +1202,26 @@ section {
         max-width: 290px;
     }
 
-    .name-header {
-        margin-left: -130px;
-        margin-top: -10px;
+    .gorizontal-text {
+        font-size: 14px;
     }
 
-    .first-cup {
-        top: 330px;
-        left: -80px;
+    .h1-mobile {
+        font-size: 60px;
+        margin-top: 40px;
     }
+
+    .h2-mobile {
+        font-size: 28px;
+        margin-top: -25px;
+        margin-bottom: 15px;
+    }
+
+    .text-mobile {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
 
     .bckg {
         height: 580px;
@@ -1303,6 +1235,10 @@ section {
 
     .description-star {
         width: 200px;
+    }
+
+    .grid-layout-about {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     }
 
     /* Partners */

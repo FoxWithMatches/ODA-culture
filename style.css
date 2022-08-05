@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'Beer money';
+    src: local('Beer money'),
+    url(/font/beer\ money.ttf);
+}
+
+@font-face {
+    font-family: 'beer money';
+    src: url('beer money.eot');
+    src: url('beer money.eot?#iefix') format('embedded-opentype'),
+         url('beer money.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'beermoney';
+    src: url('beermoney.svg#beermoney') format('svg'),
+         url('beermoney.ttf') format('truetype'),
+         url('beermoney.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 .background-full {
     z-index: -1;
     position: absolute; 
@@ -142,9 +166,8 @@ h2 {
 /* About */
 
 .h4 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Beer money';
     font-size: 50px;
-    opacity: 0.2;
     margin-top: 50px;
 }
 
@@ -165,7 +188,7 @@ h2 {
 
 blockquote {
     text-align: center;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Beer money';
     font-size: 32px;
     padding: 10px;
 }
@@ -1027,6 +1050,10 @@ section {
         max-width: 450px;
     }
 
+    .h4 {
+        font-size: 20px;
+    }
+
     /* Products */
 
     .description-product {
@@ -1134,9 +1161,24 @@ section {
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
     .one-box-text {
         width: 95%;
         padding: 15px;
+    }
+
+    .description-star {
+        width: 300px;
+    }
+
+    .description-text {
+        width: 350px;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .text-description-order {
+        text-align: left;
     }
 
     .img-pos {
@@ -1154,6 +1196,10 @@ section {
      .image-description, .text-description-order {
         width: 100%;
      } 
+
+     .margin-text {
+        text-align: center;
+     }
 
          /* Partners */
 
@@ -1182,6 +1228,10 @@ section {
 
     /* About */
 
+    .text-about {
+        width: 90%;
+    }
+
     blockquote {
         font-size: 18px;
     }
@@ -1193,6 +1243,11 @@ section {
     .grid-layout-header {
         margin-bottom: 170px;
     }
+    
+    .description-text {
+        width: 320px;
+    }
+
 
 }
 
@@ -1233,12 +1288,12 @@ section {
         font-size: 60px;
     }
 
-    .description-star {
-        width: 200px;
-    }
-
     .grid-layout-about {
         grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+
+    .description-text {
+        width: 280px;
     }
 
     /* Partners */

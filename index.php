@@ -384,9 +384,9 @@
         <div class="order">
             <div class="contacts">
                 <h4>Оставьте заявку</h4>
-                <form action="/" method="post">
-                    <input class="input" type="text" name="name" placeholder="Ваше имя" required>
-                    <input class="input" type="tel" placeholder="Номер телефона" required>
+                <form action="send.php" method="post">
+                    <input class="input" type="text" name="fio" placeholder="Ваше имя" required>
+                    <input class="input" type="tel" name="tel" placeholder="Номер телефона" required>
                     <textarea class="input" name="name" placeholder="Комментарий (необязательно)"></textarea><br>
                     <button class="order-btn" type="submit">Отправить</button>
                 </form>

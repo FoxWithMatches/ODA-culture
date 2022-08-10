@@ -33,13 +33,13 @@
 
         <div class="form-partners">
                 <h4>Оставьте заявку</h4>
-                <form action="/" method="post">
-                    <input class="input" type="text" name="name" placeholder="Ваше имя" required>
+                <form action="sendpartnres.php" method="post">
+                    <input class="input" type="text" name="partners" placeholder="Ваше имя" required>
                     <input class="input" type="text" name="company" placeholder="Ваша организация">
-                    <input class="input" type="tel" placeholder="Номер телефона" required>
-                    <input class="input" type="text" name="company" placeholder="Адрес электронной почты">
+                    <input class="input" type="tel" name="phone" placeholder="Номер телефона" required>
+                    <input class="input" type="text" name="email" placeholder="Адрес электронной почты">
                     <input class="input" type="text" name="call" placeholder="Комфортный способ связи: звонок/ мессенджер">
-                    <textarea class="input" name="name"
+                    <textarea class="input" name="text"
                         placeholder="Комментарий (Ваше предложение)"></textarea><br>
                     <button class="order-btn" type="submit">Отправить</button>
                 </form>

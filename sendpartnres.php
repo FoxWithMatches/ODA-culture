@@ -1,20 +1,32 @@
 <?php
-$fio = $_POST['fio'];
-$tel = $_POST['tel'];
-$name = $_POST['name'];
 
-$fio = htmlspecialchars($fio);
-$tel = htmlspecialchars($tel);
-$name = htmlspecialchars($name);
+$partners = $_POST['partners'];
+$company = $_POST['company'];
+$phone = $_POST['phone'];
+$email = $_POST['email'];
+$call = $_POST['call'];
+$text = $_POST['text'];
 
-$fio = urldecode($fio);
-$tel = urldecode($tel);
-$name = urldecode($name);
+$partners = htmlspecialchars($partners);
+$company = htmlspecialchars($company);
+$phone = htmlspecialchars($phone);
+$email = htmlspecialchars($email);
+$call = htmlspecialchars($call);
+$text = htmlspecialchars($text);
 
-$fio = trim($fio);
-$tel = trim($tel);
-$name = trim($name);
+$partners = urldecode($partners);
+$company = urldecode($company);
+$phone = urldecode($phone);
+$email = urldecode($email);
+$call = urldecode($call);
+$text = urldecode($text);
 
+$partners = trim($partners);
+$company = trim($company);
+$phone= trim($phone);
+$email = trim($email);
+$call = trim($call);
+$text = trim($text);
 
 ?>
 
@@ -37,7 +49,7 @@ $name = trim($name);
 <body>
 
 <?php
-if (mail("hello@oda-culture.store", "Клиент", "ФИО: ".$fio.". Телефон: ".$tel." Сообщение: ".$name, "From: hello@oda-culture.store \r\n")) {
+if (mail("hello@oda-culture.store", "Партнеры", "ФИО: ".$partners.". Компания: ".$company." Телефон: ".$phone." E-mail: ".$email." Комфортный способ связи: ".$call." Сообщение: ".$text, "From: hello@oda-culture.store \r\n")) {
     ?>
 
     <div class="page">
@@ -68,3 +80,4 @@ if (mail("hello@oda-culture.store", "Клиент", "ФИО: ".$fio.". Теле�
     echo "error";
 }
 ?>
+

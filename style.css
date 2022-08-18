@@ -223,12 +223,11 @@ h3 {
 
 .products {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
 .scroll-product {
-    display: flex;
-    align-items: center;
+    width: 50%;
 }
 
 .photo-product {
@@ -247,8 +246,9 @@ h3 {
 }
 
 .description-product {
-    width: 45%;
+    width: 50%;
     margin-bottom: 70px;
+    align-items: center;
 }
 
 .price {
@@ -300,8 +300,49 @@ h3 {
     color: #ccc;
 }
 
+.bottom-position {
+    color: #EEBEA7;
+}
+
 .btn-position-order {
     margin-top: 20px;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    position: absolute;
+    bottom: 100px;
+
+    z-index: 2;
+}
+
+.slick-dots li {
+    margin: 0 5px;
+}
+
+.slick-dots button {
+    width: 30px;
+    height: 2px;
+    background: #d59476;
+    border-radius: 10%;
+    border: 0;
+    padding: 0;
+
+    cursor: pointer;
+
+    font-size: 0;
+    color: transparent;
+
+}
+
+.slick-dots .slick-active button {
+    background-color: #8CAE9F;
 }
 
 /* Description */
@@ -1129,12 +1170,17 @@ section {
 
     /* Products */
 
+    .slick-dots {
+        bottom: 500px;
+        left: 130px;
+    }
+
     .products {
         flex-direction: column;
     }
 
     .scroll-product {
-        width: 90%;
+        width: 100%;
     }
 
     .flex-price {
@@ -1142,7 +1188,7 @@ section {
     }
 
     .description-product {
-        width: 80%;
+        width: 100%;
         margin-left: 0px;
     }
 
@@ -1233,6 +1279,11 @@ section {
     }
 
     /* Products */
+
+    .slick-dots {
+        bottom: 400px;
+        left: 110px;
+    }
 
     .description-product {
         margin-top: -50px;
@@ -1330,6 +1381,13 @@ section {
         max-width: 370px;
     }
 
+    /* Products */
+
+    .slick-dots {
+        bottom: 620px;
+        left: 100px;
+    }
+
     /* Description */
 
     .grid-layout-about {
@@ -1407,6 +1465,13 @@ section {
         width: 200px;
     }
 
+    /* Products */
+
+    .slick-dots {
+        bottom: 640px;
+        left: 90px;
+    }
+
     /* About */
 
     .text-about {
@@ -1462,6 +1527,13 @@ section {
     .bckg {
         height: 750px;
     }
+
+        /* Products */
+
+        .slick-dots {
+            bottom: 710px;
+            left: 80px;
+        }
 
     /* Description */
 

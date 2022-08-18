@@ -53,21 +53,29 @@
     <div class="background-full">
         <img class="bckg" src="/img/bckg.png" alt="green background">
     </div>
-    <div class="page">
-        <header class="header-item" id="header">
-
+    
+        <header class="header" id="header">
+            <div class="page">
+                <div class="header-item">
             <img class="logo" src="/img/v1.svg" alt="logotype">
-            <nav class="header">
-                <a class="nav-link" href="#about">О нас</a>
-                <a class="nav-link" href="#products">Продукция</a>
-                <a class="nav-link" href="#description">Преимущества</a>
-                <a class="nav-link" href="#galery">Галерея</a>
-                <a class="nav-link" href="#order">Заказать</a>
-                <a class="nav-link" href="#contacts">Контакты</a>
+            <nav class="nav-header" id="nav">
+                <a class="nav-link" href="#" data-scroll="#about">О нас</a>
+                <a class="nav-link" href="#" data-scroll="#products">Продукция</a>
+                <a class="nav-link" href="#" data-scroll="#description">Преимущества</a>
+                <a class="nav-link" href="#" data-scroll="#galery">Галерея</a>
+                <a class="nav-link" href="#" data-scroll="#order">Заказать</a>
+                <a class="nav-link" href="#" data-scroll="#contacts">Контакты</a>
             </nav>
+            <button class="burger" type="button" id="navToggle">
+                <span class="burger_item">Menu</span>
+            </button>
+            </div>
+        </div>
+       
         </header>
 
-        <div class="hamburger-menu">
+<div class="page">
+        <!-- <div class="hamburger-menu">
             <input id="menu__toggle" type="checkbox" />
             <label class="menu__btn" for="menu__toggle">
                 <span></span>
@@ -81,11 +89,12 @@
                 <li><a class="menu__item" href="#order">Заказать</a></li>
                 <li><a class="menu__item" href="#contacts">Контакты</a></li>
             </ul>
-        </div>
+        </div> -->
 
+    
         <main>
             <p class="gorizontal-text">Eco. Reusable. Adorable.</p>
-            <div class="grid-layout-header">
+            <div class="grid-layout-header" id="intro">
                 <p class="vertical-text">Eco. Reusable. Adorable.</p>
                 <p class="gorizontal-text" style="display: none;">Eco. Reusable. Adorable.</p>
                 <img class="first-cup image-size" src="/img/mainCup.png" alt="photo cup">

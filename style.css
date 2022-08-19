@@ -1202,6 +1202,10 @@ section {
         right: 0;
     }
 
+    .nav-header.color {
+        background-color: #8CAE9F;
+    }
+
     .nav-link {
         padding: 8px 0;
     }
@@ -1247,7 +1251,7 @@ section {
     }
 
     .bckg {
-        height: 750px;
+        height: 850px;
     }
 
 
@@ -1592,7 +1596,7 @@ section {
     }
 
     .bckg {
-        height: 800px;
+        height: 870px;
     }
 
     .grid-layout-header {
@@ -1634,7 +1638,7 @@ section {
 
 
     .bckg {
-        height: 750px;
+        height: 710px;
     }
 
         /* Products */

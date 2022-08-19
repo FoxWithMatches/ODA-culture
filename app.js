@@ -19,6 +19,9 @@ let header = $("#header");
 let intro = $("#intro");
 let introH;
 let scrollPos = $(window).scrollTop();
+let nav = $("#nav");
+let navToggle = $("#navToggle");
+
 
 checkScroll(scrollPos, introH);
 
@@ -33,8 +36,10 @@ $(window).on("scroll load resize", function() {
 function checkScroll(scrollPos, introH) {
   if(scrollPos > introH) {
     header.addClass("fixed");
+    nav.removeClass("color");
   } else {
     header.removeClass("fixed");
+    nav.addClass("color");
   }
 }
 
@@ -54,8 +59,7 @@ $("[data-scroll]").on("click", function(event) {
 
 /* navToggle */
 
-let nav = $("#nav");
-let navToggle = $("#navToggle");
+
 
 navToggle.on("click", function(event) {
   event.preventDefault();

@@ -1,3 +1,4 @@
+
 <div class="page">
 
         <main>
@@ -58,7 +59,7 @@
                 <div>
             <div class="products">
                 <div class="scroll-product">
-                    <img class="photo-product image-size" src="/img/pinkCup.png" alt="photo-product">
+                    <img class="photo-product image-size" src="/img/pinkcup.png" alt="photo-product">
                 </div>
 
                 <div class="description-product">
@@ -123,7 +124,7 @@
             <div>
             <div class="products">
                 <div class="scroll-product">
-                    <img class="photo-product image-size" src="/img/pinkCup.png" alt="photo-product">
+                    <img class="photo-product image-size" src="/img/blackcup.png" alt="photo-product">
                 </div>
 
                 <div class="description-product">

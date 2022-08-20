@@ -11,14 +11,14 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ODA culture</title>
+    <title>Политика конфиденциальности</title>
 </head>
 
 <body>
     <div class="page">
         <div>
             <header id="header">
-                <a href="/index.html">
+                <a href="/index.php">
                     <img class="logo" src="/img/v1.svg" alt="logotype">
                 </a>
             </header>
@@ -194,52 +194,6 @@
 
             </main>
 
-            <footer>
-                <div class="grid-layout-footer">
-                    <div>
-                        <h4 class="name-logo-footer-position">ODA culture, 2022</h4>
-                        <a href="/index.html">
-                            <img class="image-footer" src="/img/v1.svg" alt="logotype">
-                        </a>
-                    </div>
-
-                    <div>
-                        <h4 class="h4-footer">Контакты</h4>
-                        <a class="text-footer" href="tel:+79043967391">+7(999)999 99 99</a><br>
-                        <a class="text-footer" href="https://vk.com/oda_culture" target="_blank">Вконтакте</a><br>
-                        <a class="text-footer" href="mailto:hello@oda-culture.store">Email</a><br>
-                        <a class="text-footer" href="https://t.me/DarinaZhu" target="_blank">Telegram</a><br>
-                        <a class="text-footer" href="https://l.clck.bar/6a705" target="_blank">WhatsApp</a><br>
-                        <a class="text-footer" href="#" target="_blank">Социальная сеть</a>
-                    </div>
-
-                    <div>
-                        <h4 class="h4-footer">Прочее</h4>
-                        <a class="text-footer" href="/police.html" target="_blank">Политика конфиденциальности и
-                            оферта</a>
-                    </div>
-
-                    <div>
-                        <a href="https://vk.com/oda_culture" target="_blank"><img class="icons-police scale-icon icon-size" src="/img/vk.png"
-                                alt="icon vk"></a>
-                        <a href="https://t.me/DarinaZhu"><img class="icons-police scale-icon icon-size" src="/img/telegram.png"
-                                alt="icon telegram"></a>
-                        <a href="#"><img class="icons-police scale-icon icon-size" src="/img/social1.png" alt="icon social"></a>
-                        <a href="mailto:hello@oda-culture.store"><img class="icons-police scale-icon icon-size" src="/img/Mail.png"
-                                alt="icon email"></a>
-                    </div>
-                </div>
-                <p class="text-cookies">Мы используем ваши «Cookies» — данные о посещении нашего сайта. Это помогает
-                    делать наш проект лучше.</p>
-                <p class="text-cookies">Жучкова Д.Д. — ИНН 525406158308</p>
-                <a href="#header">
-                    <img class="arrow-position" src="/img/Union.svg" alt="arrow">
-                </a>
-                <a href="#" target="_blank" class="author">2022, дизайн и разработка - Алиса Цыганова</a>
-
-            </footer>
-        </div>
-    </div>
-</body>
-
-</html>
+<?php
+require("components/footer.php");
+?>

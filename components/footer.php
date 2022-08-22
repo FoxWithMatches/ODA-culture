@@ -2,7 +2,7 @@
             <div class="grid-layout-footer">
                 <div>
                     <h4 class="name-logo-footer-position">ODA culture, 2022</h4>
-                    <a href="#header">
+                    <a href="/index.php">
                         <img class="image-footer" src="/img/v1.svg" alt="logotype">
                     </a>
                 </div>
@@ -10,7 +10,7 @@
                 <div>
                     <h4 class="h4-footer">Контакты</h4>
                     <a class="text-footer" href="tel:+79023084148">+79023084148</a><br>
-                    <a class="text-footer" href="#" target="_blank">Нельзяграм</a><br>
+                    <a class="text-footer" href="https://www.instagram.com/oda_culture/" target="_blank">Нельзяграм</a><br>
                     <a class="text-footer" href="https://vk.com/oda_culture" target="_blank">Вконтакте</a><br>  
                 </div>
 
@@ -31,7 +31,7 @@
                 делать наш проект лучше.</p>
             <p class="text-cookies">Жучкова Д.Д. — ИНН 525406158308</p>
            
-            <a href="#" target="_blank" class="author">2022, дизайн и разработка - Алиса Цыганова</a>
+            <a href="https://www.instagram.com/fox_with_matches/" target="_blank" class="author">2022, дизайн и разработка - Алиса Цыганова</a>
 
         </footer>
     </div>
@@ -40,6 +40,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!-- modal activate -->
     <script>
         let i;

@@ -59,11 +59,11 @@
                 <div class="header-item">
             <img class="logo" src="/img/v1.svg" alt="logotype">
             <nav class="nav-header" id="nav">
+                <a class="nav-link" href="#" data-scroll="#intro">Главная</a>
                 <a class="nav-link" href="#" data-scroll="#about">О нас</a>
                 <a class="nav-link" href="#" data-scroll="#products">Продукция</a>
                 <a class="nav-link" href="#" data-scroll="#description">Преимущества</a>
                 <a class="nav-link" href="#" data-scroll="#galery">Галерея</a>
-                <a class="nav-link" href="#" data-scroll="#order">Заказать</a>
                 <a class="nav-link" href="#" data-scroll="#contacts">Контакты</a>
             </nav>
             <button class="burger" type="button" id="navToggle">

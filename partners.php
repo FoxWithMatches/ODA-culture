@@ -41,6 +41,8 @@
                     <input class="input" type="text" name="call" placeholder="Комфортный способ связи: звонок/ мессенджер">
                     <textarea class="input" name="text"
                         placeholder="Комментарий (Ваше предложение)"></textarea><br>
+                    <div class="g-recaptcha" data-sitekey="6Lf-Q5khAAAAAH4pZDPR9ZEssB6mrq2y-S0iUfpK"></div>
+
                     <button class="order-btn" type="submit">Отправить</button>
                 </form>
         </div>

@@ -1,4 +1,3 @@
-
 <div class="page">
 
         <main>
@@ -90,7 +89,6 @@
             </div>
             </div>
         
-
             <div>
             <div class="products">
                 <div class="scroll-product">
@@ -284,12 +282,12 @@
             <div class="text-description-order">
                 <p>Свяжитесь с нами любым удобным для вас способом:</p>
                 <div class="icon-social">
-                    <a href="https://vk.com/oda_culture"><img class="scale-icon icon-size" src="/img/vk.png"
+                    <a href="https://vk.com/oda_culture" target="_blank"><img class="scale-icon icon-size" src="/img/vk.png"
                             alt="icon vk"></a>
-                    <a href="https://t.me/DarinaZhu"><img class="scale-icon icon-size" src="/img/telegram.png"
+                    <a href="https://t.me/DarinaZhu" target="_blank"><img class="scale-icon icon-size" src="/img/telegram.png"
                             alt="icon telegram"></a>
-                    <a href="#"><img class="scale-icon icon-size" src="/img/social1.png" alt="icon social"></a>
-                    <a href="mailto:hello@oda-culture.store"><img class="scale-icon icon-size" src="/img/Mail.png"
+                    <a href="https://www.instagram.com/oda_culture/" target="_blank"><img class="scale-icon icon-size" src="/img/social1.png" alt="icon social"></a>
+                    <a href="mailto:hello@oda-culture.store"><img class="scale-icon icon-size" src="/img/mail.png"
                             alt="icon email"></a>
                 </div>
                 <p>Если у вас предложение о партнерстве или хотите сделать оптовый заказ свяжитесь с нами через
@@ -330,10 +328,11 @@
         <div class="order">
             <div class="contacts">
                 <h4>Оставьте заявку</h4>
-                <form action="send.php" method="post">
+                <form action="send.php" id="form" method="post">
                     <input class="input" type="text" name="fio" placeholder="Ваше имя" required>
                     <input class="input" type="tel" name="tel" placeholder="Номер телефона" required>
                     <textarea class="input" name="message" placeholder="Комментарий (необязательно)"></textarea><br>
+                    <div class="g-recaptcha" data-sitekey="6Lf-Q5khAAAAAH4pZDPR9ZEssB6mrq2y-S0iUfpK"></div>
                     <button class="order-btn" type="submit" name="submit">Отправить</button>
                 </form>
             </div>
@@ -347,7 +346,7 @@
                             src="/img/vk.png" alt="icon vk"></a>
                     <a href="https://t.me/DarinaZhu" target="_blank"><img class="scale-icon icon-size"
                             src="/img/telegram.png" alt="icon telegram"></a>
-                    <a href="#"><img class="scale-icon" src="/img/social1.png" alt="icon social icon-size"></a>
+                    <a href="https://www.instagram.com/oda_culture/"><img class="scale-icon icon-size" src="/img/social1.png" alt="icon social icon-size"></a>
                     <a href="mailto:hello@oda-culture.store"><img class="scale-icon icon-size" src="/img/mail.png"
                             alt="icon email"></a>
                 </div>

@@ -68,6 +68,14 @@ navToggle.on("click", function(event) {
 
 });
 
+$('#form').submit(function(){
+	var response = grecaptcha.getResponse();
+	if(response.length == 0) {
+		alert('Вы не прошли проверку CAPTCHA должным образом');
+		return false;
+	}
+});
+
 
 });
 

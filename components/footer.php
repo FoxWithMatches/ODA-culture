@@ -41,6 +41,7 @@
     <script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
     <!-- modal activate -->
     <script>
         let i;

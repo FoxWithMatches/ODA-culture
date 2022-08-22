@@ -15,8 +15,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-
-
+    
     <meta name="description"
         content="ODA culture - интернет-магазин складных эко-стаканчиков, который позиционирует экологичное отношение, разумное протребление и осознанное отношение как к природе, так и к себе">
     <meta name="keywords"

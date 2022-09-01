@@ -53,8 +53,8 @@ $("[data-scroll]").on("click", function(event) {
   console.log(elementID)
 
   $("html, body").animate({
-    scrollTop: elementOffset
-  }, 700)
+    scrollTop: elementOffset - 70
+  }, 700);
 });
 
 /* navToggle */

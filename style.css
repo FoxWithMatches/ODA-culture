@@ -742,6 +742,33 @@ section {
     text-align: center;
 }
 
+/* 404 Not Found */
+
+.not-found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h3-not-found {
+    margin-top: -30px;
+    text-align: left;
+}
+
+.h1-not-found {
+    text-align: center;
+}
+
+.not-found-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-not-found {
+    margin: 0 auto;
+}
+
 
 /* adaptive ----------------- */
 
@@ -1505,7 +1532,7 @@ section {
 
     .h1-mobile {
         font-size: 60px;
-        margin-top: 40px;
+        margin-top: 120px;
     }
 
     .h2-mobile {

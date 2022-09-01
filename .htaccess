@@ -1,0 +1,7 @@
+ErrorDocument 404 /404.html
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/rss+xml
+<FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf|js|css|pdf)$">
+Header set Cache-Control "max-age=2592000"
+</FilesMatch>

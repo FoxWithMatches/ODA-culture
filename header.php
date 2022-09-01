@@ -22,7 +22,6 @@
         content="oda, oda culture, многоразовый стакан, пластиковый стакан, эко, эко маркет, стакан кофе, силиконовый стакан, складные стаканы купить, складные стаканы, складной стакан, эко стакан">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="aWYZ0kF6HSnHIE1lUUuho10jW_LKGdsJ913Xul4Bn_I" />
     <title><?php echo $title; ?></title>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -53,9 +52,7 @@
     <div class="background-full">
         <img class="bckg" src="/img/bckg.png" alt="green background">
     </div>
-
-
-
+    
         <header class="header" id="header">
             <div class="page">
                 <div class="header-item">

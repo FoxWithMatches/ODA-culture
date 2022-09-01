@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /.htaccess
+Sitemap: https://oda-culture.store/sitemap.xml

@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap" rel="stylesheet">
 
+    <meta name="description"
+        content="ODA culture. Приглашаем к сотрудничеству.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Для партнеров</title>
@@ -36,7 +38,7 @@
                 <form action="sendpartnres.php" method="post">
                     <input class="input" type="text" name="partners" placeholder="Ваше имя" required>
                     <input class="input" type="text" name="company" placeholder="Ваша организация">
-                    <input class="input" type="tel" name="phone" placeholder="Номер телефона" required>
+                    <input class="input" type="tel" name="phone" placeholder="Номер телефона" maxlength="13" id="tel" required>
                     <input class="input" type="text" name="email" placeholder="Адрес электронной почты">
                     <input class="input" type="text" name="call" placeholder="Комфортный способ связи: звонок/ мессенджер">
                     <textarea class="input" name="text"
